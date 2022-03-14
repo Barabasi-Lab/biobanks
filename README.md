@@ -18,4 +18,8 @@ In order to obtain the dataset one needs to first obtain the full [Microsoft Aca
 The path to the MAG should be set in the script `serendipity.py` in the `python` subdirectory. Once this is set, the script `keywords.py` will return a first list of articles. These articles are based on a set of keywords usually contained in papers introducing biobanks (in the broad term, including cohorts of different sizes and purposes.).
 
 
-The jupyter notebook `initial.ipynb` should be then run to obtain the final list from the automatized process. The final list of biobanks was manually curated to remove duplicates, and biobanks not human-based. In order to obtain the last version of this table, you need to run the script `manual_table.py` in the `python` directory. Note that in order to do so you will need to install the python module [gspread](https://docs.gspread.org/en/latest/).
+The jupyter notebook `initial.ipynb` should be then run to obtain the final list from the automatized process. Both steps are explained in this notebook.
+
+The final list of biobanks was manually curated to remove duplicates, and biobanks not human-based. In order to obtain the last version of this table, you need to run the script `manual_table.py` in the `python` directory. Note that in order to do so you will need to install the python module [gspread](https://docs.gspread.org/en/latest/).
+
+The final list of biobanks is `biobanks.csv`.
