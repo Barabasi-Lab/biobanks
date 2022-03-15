@@ -9,10 +9,10 @@ import os.path
 import pandas as pd
 import gspread as gc
 
-OUT = '../data/biobanks.csv'
+OUT = '../../data/out/biobanks.csv'
 
-if not os.path.isdir('../data'):
-    raise Exception("You should have a ../data directory.")
+if not os.path.isdir('../../data'):
+    raise Exception("You should have a ../../data directory.")
 
 
 sheet_id = "1uAdz6b5EbjXevMQAKBKDkvOH6YtdUyMjl20_maOroSo"
